@@ -3,9 +3,7 @@
 
     <slot name="header"></slot>
 
-    <slot v-for="result in results" :result="result">
-      Result 'objectID': {{ result.objectID }}
-    </slot>
+    <slot :results="results"></slot>
 
     <slot name="footer"></slot>
 
